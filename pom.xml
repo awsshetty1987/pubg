@@ -27,6 +27,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-10-0-1-78.ap-south-1.compute.internal-releases</name>
+        <url>http://35.154.129.174:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-10-0-1-78.ap-south-1.compute.internal-snapshots</name>
+        <url>http://35.154.129.174:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <build>
     <finalName>pubg</finalName>
